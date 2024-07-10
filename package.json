@@ -1,6 +1,6 @@
 {
   "name": "@tralse/cachify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Cachify is a Node.js package that optimizes application performance through streamlined data caching using both Redis and memory-cache.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
