@@ -5,7 +5,7 @@ import { log } from "@tralse/developer-logs";
 import CachifyError from "./errors";
 
 export default class CachifyLocal implements LocalCachifyModule {
-  _debug = false;
+  private _debug = false;
   cache: CacheClass<string, any>;
 
   /**

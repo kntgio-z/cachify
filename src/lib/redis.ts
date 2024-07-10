@@ -6,7 +6,7 @@ import CachifyError from "./errors";
 
 export default class CachifyRedis implements RedisCachifyModule {
   redis: Redis;
-  _debug = false;
+  private _debug = false;
 
   /**
    * Creates an instance of CachifyRedis.
