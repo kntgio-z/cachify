@@ -1,0 +1,47 @@
+{
+  "name": "@tralse/cachify",
+  "version": "1.0.0",
+  "description": "Cachify is a Node.js package that optimizes application performance through streamlined data caching using both Redis and memory-cache.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prestart": "npm test",
+    "build": "tsup",
+    "pub": "tsup && npm publish --access=public && exit",
+    "release": "standard-version && git push --follow-tags origin main",
+    "release:minor": "standard-version --release-as minor && git push --follow-tags origin main",
+    "release:major": "standard-version --release-as major && git push --follow-tags origin main"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kntgio-z/cachify.git"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "caching"
+  ],
+  "author": "kntgio-z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kntgio-z/cachify/issues"
+  },
+  "homepage": "https://github.com/kntgio-z/cachify#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "standard-version": "^9.5.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@tralse/developer-logs": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "ioredis": "^5.4.1",
+    "memory-cache": "^0.2.0"
+  }
+}

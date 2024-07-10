@@ -1,0 +1,8 @@
+/__test__
+/src
+/node_modules
+/.cachify
+
+jsconfig.json
+tsconfig.json
+tsup.config.ts
