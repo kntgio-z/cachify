@@ -17,6 +17,10 @@ npm install cachify redis memory-cache
 
 Contributions are welcome! Fork the repository and submit a pull request.
 
+## Changelogs
+
+You can see the change logs of this package [here](CHANGELOG.md).
+
 ## License
 
-This project is licensed under the MIT License - [see](./LICENSE) the LICENSE file for details.
+This project is licensed under the MIT License - [see the LICENSE file](./LICENSE) for details.
