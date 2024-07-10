@@ -7,7 +7,7 @@ import CachifyRedis from "./lib/redis";
 
 config();
 
-export default class Cachify {
+class Cachify {
   private _mode: string | undefined;
   private _redisConnection: Redis;
   private _instance: CachifyLocal | CachifyRedis;
@@ -77,4 +77,4 @@ export default class Cachify {
   static redis = (connection: Redis) => new CachifyRedis(connection);
 }
 
-export { CachifyLocal, CachifyRedis, CachifyError };
+export { Cachify, CachifyLocal, CachifyRedis, CachifyError };
