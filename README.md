@@ -10,7 +10,7 @@
 Install the package via npm:
 
 ```bash
-npm install cachify redis memory-cache
+npm install cachify
 ```
 
 ## Contributing
